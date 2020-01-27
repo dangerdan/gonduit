@@ -9,7 +9,7 @@ A Go client for interacting with [Phabricator](http://phabricator.org) via the [
 A simple `go get` should do it:
 
 ```
-go get github.com/uber/gonduit
+go get github.com/dangerdan/gonduit
 ```
 
 For reproducible builds, you can also use [Glide](https://glide.sh/).
