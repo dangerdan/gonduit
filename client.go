@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/uber/gonduit/core"
-	"github.com/uber/gonduit/entities"
-	"github.com/uber/gonduit/requests"
-	"github.com/uber/gonduit/responses"
+	"github.com/dangerdan/gonduit/core"
+	"github.com/dangerdan/gonduit/entities"
+	"github.com/dangerdan/gonduit/requests"
+	"github.com/dangerdan/gonduit/responses"
 )
 
 // Conn is a connection to the conduit API.

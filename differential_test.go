@@ -6,11 +6,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
-	"github.com/uber/gonduit/core"
-	"github.com/uber/gonduit/entities"
-	"github.com/uber/gonduit/requests"
-	"github.com/uber/gonduit/responses"
-	"github.com/uber/gonduit/test/server"
+	"github.com/dangerdan/gonduit/core"
+	"github.com/dangerdan/gonduit/entities"
+	"github.com/dangerdan/gonduit/requests"
+	"github.com/dangerdan/gonduit/responses"
+	"github.com/dangerdan/gonduit/test/server"
 )
 
 func TestDifferentialGetCommitPaths(t *testing.T) {

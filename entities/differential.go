@@ -3,8 +3,8 @@ package entities
 import (
 	"encoding/json"
 
-	"github.com/uber/gonduit/constants"
-	"github.com/uber/gonduit/util"
+	"github.com/dangerdan/gonduit/constants"
+	"github.com/dangerdan/gonduit/util"
 )
 
 // DifferentialRevision represents a revision in Differential.

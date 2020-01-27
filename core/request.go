@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/uber/gonduit/requests"
+	"github.com/dangerdan/gonduit/requests"
 )
 
 // MakeRequest creates a new requests to the conduit API.

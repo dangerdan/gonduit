@@ -1,6 +1,6 @@
 package responses
 
-import "github.com/uber/gonduit/entities"
+import "github.com/dangerdan/gonduit/entities"
 
 // DifferentialQueryResponse is the response of calling differential.query.
 type DifferentialQueryResponse []*entities.DifferentialRevision

@@ -1,6 +1,6 @@
 package requests
 
-import "github.com/uber/gonduit/constants"
+import "github.com/dangerdan/gonduit/constants"
 
 // RemarkupProcessQuery represents a request to project.query.
 type RemarkupProcessRequest struct {

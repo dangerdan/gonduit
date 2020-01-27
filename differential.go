@@ -1,8 +1,8 @@
 package gonduit
 
 import (
-	"github.com/uber/gonduit/requests"
-	"github.com/uber/gonduit/responses"
+	"github.com/dangerdan/gonduit/requests"
+	"github.com/dangerdan/gonduit/responses"
 )
 
 // DifferentialQueryMethod is method name on Phabricator API.

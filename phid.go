@@ -1,9 +1,9 @@
 package gonduit
 
 import (
-	"github.com/uber/gonduit/entities"
-	"github.com/uber/gonduit/requests"
-	"github.com/uber/gonduit/responses"
+	"github.com/dangerdan/gonduit/entities"
+	"github.com/dangerdan/gonduit/requests"
+	"github.com/dangerdan/gonduit/responses"
 )
 
 // PHIDLookup calls the phid.lookup endpoint.

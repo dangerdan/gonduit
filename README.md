@@ -1,4 +1,4 @@
-# gonduit [![Build Status](https://travis-ci.com/uber/gonduit.svg?branch=master)](https://travis-ci.com/uber/gonduit) [![GoDoc](https://godoc.org/github.com/uber/gonduit?status.svg)](https://godoc.org/github.com/uber/gonduit)
+# gonduit [![Build Status](https://travis-ci.com/dangerdan/gonduit.svg?branch=master)](https://travis-ci.com/dangerdan/gonduit) [![GoDoc](https://godoc.org/github.com/dangerdan/gonduit?status.svg)](https://godoc.org/github.com/dangerdan/gonduit)
 
 A Go client for interacting with [Phabricator](http://phabricator.org) via the [Conduit](https://secure.phabricator.com/book/phabdev/article/conduit/) API.
 

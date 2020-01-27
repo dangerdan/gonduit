@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/uber/gonduit/entities"
-	"github.com/uber/gonduit/util"
+	"github.com/dangerdan/gonduit/entities"
+	"github.com/dangerdan/gonduit/util"
 )
 
 // ManiphestSearchRequest represents a request to maniphest.search API method.

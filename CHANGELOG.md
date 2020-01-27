@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+
+
+## [0.6.2 - 2020-01-27
+### Changed
+- Changed import paths from `uber` to `dangerdan`.
+
 ## [0.6.1] - 2019-11-26
 - Dummy release
 
@@ -53,5 +59,5 @@ All notable changes to this project will be documented in this file.
 
 ## [0.3.0] - 2018-11-19
 ### Changed
-- Changed import paths from `etcinit` to `uber`.
+- Changed import paths from `etcinit` to `dangerdan`.
 - Updated vesions of dependencies.

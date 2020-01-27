@@ -1,6 +1,6 @@
 package responses
 
-import "github.com/uber/gonduit/entities"
+import "github.com/dangerdan/gonduit/entities"
 
 // ManiphestQueryResponse is the response of calling maniphest.query.
 type ManiphestQueryResponse map[string]*entities.ManiphestTask

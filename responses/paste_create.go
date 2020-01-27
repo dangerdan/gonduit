@@ -1,6 +1,6 @@
 package responses
 
-import "github.com/uber/gonduit/entities"
+import "github.com/dangerdan/gonduit/entities"
 
 // PasteCreateResponse represents the result of calling paste.create.
 type PasteCreateResponse *entities.PasteItem

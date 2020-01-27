@@ -4,9 +4,9 @@ IFS=$'\n\t'
 
 rm -r /home/drydock/go/src
 
-mkdir -p /home/drydock/go/src/github.com/uber
-ln -sf $(pwd) /home/drydock/go/src/github.com/uber/
-cd /home/drydock/go/src/github.com/uber/gonduit
+mkdir -p /home/drydock/go/src/github.com/dangerdan
+ln -sf $(pwd) /home/drydock/go/src/github.com/dangerdan/
+cd /home/drydock/go/src/github.com/dangerdan/gonduit
 
 glide install
 go build $(glide novendor)

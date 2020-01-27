@@ -3,7 +3,7 @@ package responses
 import (
 	"encoding/json"
 	"errors"
-	"github.com/uber/gonduit/util"
+	"github.com/dangerdan/gonduit/util"
 )
 
 // ManiphestSearchResponse contains fields that are in server response to maniphest.search.

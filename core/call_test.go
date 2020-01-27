@@ -8,7 +8,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
-	"github.com/uber/gonduit/responses"
+	"github.com/dangerdan/gonduit/responses"
 )
 
 func TestGetEndpointURI(t *testing.T) {

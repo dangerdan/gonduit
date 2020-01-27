@@ -1,6 +1,6 @@
 package entities
 
-import "github.com/uber/gonduit/util"
+import "github.com/dangerdan/gonduit/util"
 
 // ManiphestTask represents a single task on Maniphest.
 type ManiphestTask struct {

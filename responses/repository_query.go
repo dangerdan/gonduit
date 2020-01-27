@@ -1,6 +1,6 @@
 package responses
 
-import "github.com/uber/gonduit/entities"
+import "github.com/dangerdan/gonduit/entities"
 
 // RepositoryQueryResponse is the result of repository.query operations.
 type RepositoryQueryResponse []*entities.Repository

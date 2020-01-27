@@ -1,6 +1,6 @@
 package requests
 
-import "github.com/uber/gonduit/constants"
+import "github.com/dangerdan/gonduit/constants"
 
 // DifferentialGetCommitMessageRequest represents a request to the
 // differential.getcommitmessage call.
