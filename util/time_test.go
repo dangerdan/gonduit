@@ -16,7 +16,7 @@ type TimeTestStruct struct {
 func TestUnixTimestampMarshalJSON(t *testing.T) {
 	now := time.Now()
 
-	expected := fmt.Sprintf("{\"now\":\"%d\"}", now.Unix())
+	expected := fmt.Sprintf("{\"now\":%d}", now.Unix())
 
 	subject := &TimeTestStruct{
 		Now: UnixTimestamp(now),
@@ -31,7 +31,7 @@ func TestUnixTimestampMarshalJSON(t *testing.T) {
 func TestUnixTimestampUnmarshalJSON(t *testing.T) {
 	var subject TimeTestStruct
 
-	err := json.Unmarshal([]byte("{\"now\":\"1445754159\"}"), &subject)
+	err := json.Unmarshal([]byte("{\"now\":1445754159}"), &subject)
 
 	assert.Nil(t, err)
 	assert.Equal(t, int64(1445754159), time.Time(subject.Now).Unix())

@@ -12,7 +12,7 @@ type UnixTimestamp time.Time
 
 // MarshalJSON implements the json.Marshaler interface.
 func (t UnixTimestamp) MarshalJSON() ([]byte, error) {
-	return []byte(fmt.Sprintf("\"%d\"", time.Time(t).Unix())), nil
+	return []byte(fmt.Sprintf("%d", time.Time(t).Unix())), nil
 }
 
 // UnmarshalJSON implements the json.Unmarshaler interface.
