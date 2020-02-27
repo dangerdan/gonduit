@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 
 
+## [0.6.3 - 2020-01-27
+### Changed
+- Removed quotations from UnixTimestamp.MarshalJSON encoding.
+
 
 ## [0.6.2 - 2020-01-27
 ### Changed
