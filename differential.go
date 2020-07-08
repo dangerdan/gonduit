@@ -5,6 +5,32 @@ import (
 	"github.com/dangerdan/gonduit/responses"
 )
 
+// DifferentialDiffSearch performs a call to differential.diff.search.
+func (c *Conn) DifferentialDiffSearch(
+	req requests.DifferentialDiffSearchRequest,
+) (*responses.DifferentialDiffSearchResponse, error) {
+	var res responses.DifferentialDiffSearchResponse
+
+	if err := c.Call("differential.diff.search", &req, &res); err != nil {
+		return nil, err
+	}
+
+	return &res, nil
+}
+
+// DifferentialRevSearch performs a call to differential.revision.search.
+func (c *Conn) DifferentialRevSearch(
+	req requests.DifferentialDiffSearchRequest,
+) (*responses.DifferentialDiffSearchResponse, error) {
+	var res responses.DifferentialDiffSearchResponse
+
+	if err := c.Call("differential.revision.search", &req, &res); err != nil {
+		return nil, err
+	}
+
+	return &res, nil
+}
+
 // DifferentialQueryMethod is method name on Phabricator API.
 const DifferentialQueryMethod = "differential.query"
 

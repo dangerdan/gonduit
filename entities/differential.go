@@ -90,3 +90,39 @@ type DifferentialDiff struct {
 	AuthorName                string             `json:"authorName"`
 	AuthorEmail               string             `json:"authorEmail"`
 }
+
+// DifferentialDiffResult represents a specific diff within a Differential revision from
+// the newer differential.diff.search endpoint
+type DifferentialDiffResult struct {
+	ID         string `json:"id"`
+	RevisionID string `json:"revisionID"`
+	// Fields contains diff data.
+	Fields DifferentialDiffResultFields `json:"fields"`
+}
+
+type DifferentialDiffResultFields struct {
+	// Associated revision PHID.
+	RevisionPHID string `json:"revisionPHID"`
+	// Revision author PHID.
+	AuthorPHID string `json:"authorPHID"`
+	// Associated repository PHID.
+	RepositoryPHID string `json:"repositoryPHID"`
+	// List of related VCS references.
+	Refs map[string]interface{} `json:"refs"`
+	// DateCreated is epoch timestamp when the object was created.
+	DateCreated util.UnixTimestamp `json:"dateCreated"`
+	// DateModified is epoch timestamp when the object was last updated.
+	DateModified util.UnixTimestamp `json:"dateModified"`
+	// Policy is map of capabilities to current policies.
+	Policy SearchResultPolicy `json:"policy"`
+}
+
+// SearchResultPolicy reflects the permission policy on a maniphest item in a search result.
+type SearchResultPolicy struct {
+	// View is ???.
+	View string `json:"view"`
+	// Interact is ???.
+	Interact string `json:"interact"`
+	// Edit is ???.
+	Edit string `json:"edit"`
+}

@@ -1,6 +1,6 @@
 package requests
 
-// DifferentialQueryRequest represents a request
+// DifferentialQueryDiffsRequest represents a request
 // to the differential.querydiffs call.
 type DifferentialQueryDiffsRequest struct {
 	IDs         []uint64 `json:"ids"`
